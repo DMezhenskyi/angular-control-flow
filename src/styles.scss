@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  color: #2d3336;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 0px 0 10px 0;
+  box-sizing: border-box;
+  padding: 10px 7px;
+  border: 2px solid #4d5559;
+  border-radius: 7px;
+  font-size: 21px;
+}
+h1,
+h3 {
+  margin-bottom: 0;
+}
+.not-found,
+.unknown {
+  padding: 10px 7px;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid #e5e0e0;
+}
+.unknown {
+  background-color: #fff8de;
+  border: 1px solid #f5e59f;
+}
+.card {
+  padding: 10px 7px;
+  border-radius: 7px;
+  border: 1px solid #e5e0e0;
+  margin-bottom: 3px;
+  vertical-align: middle;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  span {
+    font-size: 11px;
+    background-color: #fafafa;
+    border: 1px solid #e5e0e0;
+    border-radius: 7px;
+    padding: 3px 8px;
+    margin-right: 10px;
+    min-width: 20px;
+  }
+}
