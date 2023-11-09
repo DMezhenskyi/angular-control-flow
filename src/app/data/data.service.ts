@@ -22,7 +22,7 @@ export class DataService {
     switchMap(() => this.fetchData())
   );
 
-  fetchData(): Observable<{ type: ResponseType['type']; payload: any }> {
+  fetchData(): Observable<ResponseType> {
     // pick randomly a type of returned data
     const randomType =
       this.#dataTypes[Math.floor(Math.random() * this.#dataTypes.length)];
